@@ -1,0 +1,6 @@
+sphinx
+pydata-sphinx-theme
+myst-nb
+sphinx-panels
+ablog
+sphinxemoji
