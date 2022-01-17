@@ -11,3 +11,37 @@
       color: #7a3575;
     }
 
+.fa-envelope:before {
+      color: #7a3575;
+    }
+
+.research-projects-cv p, ul {
+
+ margin-bottom: 0px;
+ margin-block-end: 0px;
+}
+
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .bd-content * {
+    visibility: visible;
+  }
+  .bd-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+
+
+
+  .pagebreak {
+        clear: both;
+        page-break-after: always;
+    }
+
+
+}

@@ -4,3 +4,4 @@ myst-nb
 sphinx-panels
 ablog
 sphinxemoji
+sphinxcontrib-bibtex

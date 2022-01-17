@@ -35,7 +35,7 @@ extensions = [
     "sphinx_panels",
     "sphinxemoji.sphinxemoji",
     "ablog",
-    "sphinx.ext.intersphinx",
+    "sphinxcontrib.bibtex",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -94,7 +94,8 @@ html_sidebars = {
     "blog": ["tagcloud.html",
              "categories.html",
              "archives.html"],
-
+    "careers/cv": [],
+    "careers/cl*": [],
 }
 
 html_favicon = "_static/favicon.png"
@@ -108,3 +109,9 @@ html_static_path = ["_static"]
 html_css_files = [
     'custom.css',
 ]
+
+#Ablog
+post_auto_image = 1
+
+# Bibliography
+bibtex_bibfiles = ["_static/mypubs.bib"]
