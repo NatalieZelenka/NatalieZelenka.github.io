@@ -3,4 +3,7 @@ venv/
 .idea/
 _build/
 site/careers/cl_*.md
+site/careers/cv_*.md
+site/_static/cv_*.pdf
 site/_static/cl_*.pdf
+!site/careers/cl_template.md

@@ -89,7 +89,7 @@ html_theme_options = {
 }
 
 html_sidebars = {
-    "index": [],
+    "index": ["side.html"],
     "projects": ["side.html"],
     "blog": ["tagcloud.html",
              "categories.html",
